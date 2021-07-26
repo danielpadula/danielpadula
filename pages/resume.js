@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -60,6 +59,9 @@ export default function CV() {
               <div>
                 Connect the Community with Psychomotorists from Argentina.
               </div>
+              <div>
+                <small className="text-muted">2021 (In progress)</small>
+              </div>
               <a href="https://wanid.com.ar/">https://wanid.com.ar/</a>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -72,6 +74,9 @@ export default function CV() {
             <div className="col-6 my-2">
               <div className="lead">OVERFLOW</div>
               <div>Accelerator for Independent Thinkers</div>
+              <div>
+                <small className="text-muted">2021 (In progress)</small>
+              </div>
               <a href="https://www.weareoverflow.com/">
                 https://www.weareoverflow.com/
               </a>
@@ -90,6 +95,9 @@ export default function CV() {
               <div>Clasifications calculator for Diabetic Foot</div>
               <a href="http://diabetes.org.ar">http://diabetes.org.ar</a>
               <div>
+                <small className="text-muted">2021 (In progress)</small>
+              </div>
+              <div>
                 <small className="text-muted">Mobile application</small>
               </div>
               <div>
@@ -105,6 +113,9 @@ export default function CV() {
               </div>
               <a href="parkin.gg/">https://parkin.gg/</a>
               <div>
+                <small className="text-muted">2021 (In progress)</small>
+              </div>
+              <div>
                 <small className="text-muted">Mobile application</small>
               </div>
               <div>
@@ -118,6 +129,9 @@ export default function CV() {
                 Be part of the first eSports social network in Latin America
               </div>
               <a href="https://gamity.app/">https://gamity.app/</a>
+              <div>
+                <small className="text-muted">2020</small>
+              </div>
               <div>
                 <small className="text-muted">Mobile application</small>
               </div>
@@ -136,6 +150,9 @@ export default function CV() {
                 https://www.ezgiftcard.com/
               </a>
               <div>
+                <small className="text-muted">2020</small>
+              </div>
+              <div>
                 <small className="text-muted">Backend</small>
               </div>
               <div>
@@ -145,24 +162,34 @@ export default function CV() {
 
             <div className="col-6 my-2">
               <div className="lead">PRETOR</div>
-              <div></div>
-              <a href="http://inquilinos.pre-tor.com/">
-                http://inquilinos.pre-tor.com/
-              </a>
+              <div>Creation and management of rental contracts.</div>
+              <a href="https://pre-tor.com/">https://pre-tor.com/</a>
+              <div>
+                <small className="text-muted">2020</small>
+              </div>
               <div>
                 <small className="text-muted">Mobile application</small>
               </div>
               <div>
-                <span className="badge bg-warning">React Native</span>
+                <span className="badge bg-warning me-1">React Native</span>
+                <span className="badge bg-secondary me-1">NextJS</span>
               </div>
             </div>
 
             <div className="col-6 my-2">
               <div className="lead">BURGUER KING</div>
-              <div></div>
-              <a href="https://www.burgerking.com.mx/">
-                https://www.burgerking.com.mx/
+              <div>
+                Development of the Burger King Mexico app, with a special
+                functionality called The Traffic Whopper, which allows you to
+                request delivery of your car stuck in traffic, tracking the
+                shipment in real time.
+              </div>
+              <a href="https://nosmk.com/es/proyecto/22/burger_king">
+                https://nosmk.com/es/proyecto/22/burger_king
               </a>
+              <div>
+                <small className="text-muted">2020</small>
+              </div>
               <div>
                 <small className="text-muted">Mobile application</small>
               </div>
@@ -182,6 +209,9 @@ export default function CV() {
                 https://www.argentina.gob.ar/miargentina
               </a>
               <div>
+                <small className="text-muted">2019 - 2021</small>
+              </div>
+              <div>
                 <small className="text-muted">Backend</small>
               </div>
               <div>
@@ -196,6 +226,9 @@ export default function CV() {
                 https://integracard.net.ar/
               </a>
               <div>
+                <small className="text-muted">2019</small>
+              </div>
+              <div>
                 <small className="text-muted">Web application</small>
               </div>
               <div>
@@ -209,6 +242,9 @@ export default function CV() {
               <a href="https://gobiernoabierto.cordoba.gob.ar">
                 https://gobiernoabierto.cordoba.gob.ar
               </a>
+              <div>
+                <small className="text-muted">2018 - 2019</small>
+              </div>
               <div>
                 <small className="text-muted">Backend</small>
               </div>
