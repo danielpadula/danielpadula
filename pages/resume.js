@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function CV() {
@@ -10,18 +11,26 @@ export default function CV() {
       </Head>
 
       <div className="col-lg-8 mx-auto p-3 py-md-5">
-        <header className="d-flex align-items-center pb-3 mb-5 border-bottom">
-          <Link href="/">
-            <a className="d-flex align-items-center text-dark text-decoration-none">
-              <span className="fs-4">Daniel Padula</span>
-            </a>
-          </Link>
+        <header className="pb-3 mb-5 border-bottom">
+          <div className="d-flex flex-row">
+            <div className="flex-fill">
+              <h1>Daniel Padula</h1>
+              <h3>Fullstack Web and Mobile Developer</h3>
+            </div>
+            <div className="d-flex flex-fill justify-content-end">
+              <Image
+                src="/image.jpg"
+                alt="Picture of the author"
+                className="rounded-circle"
+                width={150}
+                height={150}
+              />
+            </div>
+          </div>
         </header>
 
         <main>
-          <h1>Fullstack developer</h1>
-          <hr className="col" />
-
+          {/*
           <h2>Resume</h2>
           <p>
             Using my experience as Senior Python/Django Developer, I&apos;ve
@@ -39,7 +48,7 @@ export default function CV() {
             technology was the site of Buenos Aires City. Sysadmin Senior. I
             gained extensive experience with high-performance systems working
             for French Bank for five years.
-          </p>
+          </p>*/}
 
           <h2>Experience</h2>
 
@@ -317,6 +326,11 @@ export default function CV() {
               </div>
               <p>CAMBRIDGE UNIVERSITY - 1992- 2003</p>
             </div>
+          </div>
+
+          <h2 className="my-4">Contact</h2>
+          <div className="row">
+            <div className="col-md-6"></div>
           </div>
         </main>
 
