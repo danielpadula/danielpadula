@@ -13,7 +13,7 @@ export default function CV() {
       <div className="col-lg-8 mx-auto p-3 py-md-5">
         <header className="pb-3 mb-5 border-bottom">
           <div className="d-flex flex-row">
-            <div className="flex-fill">
+            <div className="justify-content-center">
               <h1>Daniel Padula</h1>
               <h3>Fullstack Web and Mobile Developer</h3>
             </div>
@@ -329,9 +329,14 @@ export default function CV() {
           </div>
 
           <h2 className="my-4">Contact</h2>
-          <div className="row">
-            <div className="col-md-6"></div>
-          </div>
+          <dl className="row">
+            <dt className="col-sm-3">Email</dt>
+            <dd className="col-sm-9">
+              <a href="mailto:hola@danielpadula.com">hola@danielpadula.com</a>
+            </dd>
+            <dt className="col-sm-3">Location</dt>
+            <dd className="col-sm-9">Buenos Aires, Argentina</dd>
+          </dl>
         </main>
 
         <footer className="pt-5 my-5 text-muted border-top">
