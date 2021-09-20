@@ -200,26 +200,6 @@ export default function CV() {
             </div>
 
             <div className="col-6 my-2">
-              <div className="lead">MI ARGENTINA</div>
-              <div>
-                An easy and secure way to access government digital services
-                with a single session and in one place.
-              </div>
-              <a href="https://www.argentina.gob.ar/miargentina">
-                https://www.argentina.gob.ar/miargentina
-              </a>
-              <div>
-                <small className="text-muted">2019 - 2021</small>
-              </div>
-              <div>
-                <small className="text-muted">Backend</small>
-              </div>
-              <div>
-                <span className="badge bg-info">Django</span>
-              </div>
-            </div>
-
-            <div className="col-6 my-2">
               <div className="lead">INTEGRA CARD</div>
               <div>Mastercard cards for Córdoba &apos;s citizens</div>
               <a href="https://integracard.net.ar/">
@@ -254,10 +234,35 @@ export default function CV() {
             </div>
           </div>
 
-          <h4 className="my-4">Companies</h4>
+          <h4 className="my-4">Jobs</h4>
+          
           <div className="row">
             <div className="col-md-6">
-              <p>FULLSTACK DEVELOPER AT JUNAR</p>
+              <p>TECHNICAL LEAD AT CODERIO</p>
+              <div>
+                A Software Development company
+              </div>
+              <a href="https://coderio.co/">
+                https://coderio.co/
+              </a>
+              <p className="lead">2021 - Now</p>
+            </div>
+
+            <div className="col-md-6">
+              <p>PYTHON/DJANGO DEVELOPER AT SUBSECRETARÍA DE GOBIERNO ABIERTO Y PAÍS DIGITAL DE LA SECRETARÍA DE INNOVACIÓN PÚBLICA</p>
+              <div>
+                I&apos;m workig on Mi Argentina, an easy and secure way to access government digital services with a single session and in one place.
+              </div>
+              <a href="https://www.argentina.gob.ar/miargentina">
+                https://www.argentina.gob.ar/miargentina
+              </a>
+              <p className="lead">2020 - Now</p>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6">
+              <p>PYTHON/DJANGO DEVELOPER AT JUNAR</p>
               <div>
                 I&apos;ve worked on an Open Data Platform. Junar&apos;s
                 cloud-based Open Data Platform is the fastest, easiest, and most
@@ -269,7 +274,7 @@ export default function CV() {
             </div>
 
             <div className="col-md-6">
-              <p>FULLSTACK DEVELOPER AT MERCHANT ATLAS</p>
+              <p>PYTHON/DJANGO DEVELOPER AT MERCHANT ATLAS</p>
               <div>
                 I worked on an automated selling machine created in Django, with
                 a machine learning for targeting products with for example best
