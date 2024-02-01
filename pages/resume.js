@@ -19,7 +19,7 @@ export default function CV() {
             <div className="d-flex flex-fill justify-content-end">
               <Image
                 src="/image.jpg"
-                alt="Picture of the author"
+                alt="Daniel Padula"
                 className="rounded-circle"
                 width={150}
                 height={150}
@@ -51,6 +51,208 @@ export default function CV() {
 
           <h2>Experience</h2>
 
+          <h4 className="my-4">Jobs</h4>
+
+          <div className="row">
+            <div className="col-md-6">
+              <p>TECHNICAL LEAD AT SLANG</p>
+              <div>
+                As a Technical Leader in the Fullstack Engineering team, my
+                primary focus lies in leveraging the strengths of our human
+                capital. I lead initiatives on a platform where our content team
+                meticulously crafts material for English courses, emphasizing
+                the nuanced management of lexicon, grammar, and content
+                structures. My leadership style places significant emphasis on
+                fostering a social perspective within the team. I specialize in
+                steering teams towards success by prioritizing the development
+                and well-being of our individuals. Moreover, I spearhead the
+                implementation of essential modifications to the application,
+                driving the integration of Machine Learning/Chat GPT for the
+                automated creation of industry-specific content and courses.
+              </div>
+              <a href="https://slangapp.com">https://slangapp.com</a>
+              <div>2023 - Now</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">React</span>
+                <span className="badge bg-secondary me-1">Ruby on Rails</span>
+                <span className="badge bg-warning">Python</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>FULLSTACK ENGINEER AT SLANG</p>
+              <div>
+                As a Fullstack engineer, I contributed to a platform where the
+                content team generates material for English courses, overseeing
+                lexicon, grammar, and content structures. My responsibilities
+                included implementing necessary modifications to the application
+                to leverage Machine Learning/Chat GPT for the automated creation
+                of industry-specific content and courses.
+              </div>
+              <a href="https://slangapp.com">https://slangapp.com</a>
+              <div>2022 - 2023</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">React</span>
+                <span className="badge bg-secondary me-1">Ruby on Rails</span>
+                <span className="badge bg-warning">Python</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>TECHNICAL LEAD AT CODERIO</p>
+              <div>
+                As a Technical Lead at Coderio, I held a pivotal role in
+                overseeing projects for our major client, Cencosud, a prominent
+                retail company. In this capacity, I led technical initiatives
+                related to sales and automated product advertising tools. My
+                responsibilities extended to the development and management of
+                the mobile sales application, the sales website, and the
+                seamless integration with payment providers. Within this dynamic
+                environment, I played a crucial role in optimizing and enhancing
+                tools for effective sales and automated advertising of products.
+                This encompassed not only the technical aspects but also
+                involved close collaboration with cross-functional teams to
+                ensure a smooth interconnection between various components. My
+                leadership at Coderio was instrumental in driving technological
+                advancements that significantly contributed to the success of
+                our client, Cencosud.
+              </div>
+              <a href="https://coderio.co/">https://coderio.co/</a>
+              <div>2021 - 2023</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">Java</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>
+                PYTHON/DJANGO DEVELOPER AT SUBSECRETARÍA DE GOBIERNO ABIERTO Y
+                PAÍS DIGITAL DE LA SECRETARÍA DE INNOVACIÓN PÚBLICA
+              </p>
+              <div>
+                I&apos;m workig on Mi Argentina, an easy and secure way to
+                access government digital services with a single session and in
+                one place.
+              </div>
+              <a href="https://www.argentina.gob.ar/miargentina">
+                https://www.argentina.gob.ar/miargentina
+              </a>
+              <div>2020 - Now</div>
+              <div className="mb-3">
+                <span className="badge bg-info me-1">Django</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6">
+              <p>PYTHON/DJANGO DEVELOPER AT JUNAR</p>
+              <div>
+                I&apos;ve worked on an Open Data Platform. Junar&apos;s
+                cloud-based Open Data Platform is the fastest, easiest, and most
+                affordable way to transform government data into resources that
+                your citizens can use. The application is developed in Django,
+                MySQL and Java and orchestrated with Salt.
+              </div>
+              <div>2014 - 2016</div>
+              <div className="mb-3">
+                <span className="badge bg-info me-1">Django</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>PYTHON/DJANGO DEVELOPER AT MERCHANT ATLAS</p>
+              <div>
+                I worked on an automated selling machine created in Django, with
+                a machine learning for targeting products with for example best
+                zones, best time to contact, less costs. The application is
+                developed in Django and MongoDB and orchestrated with Salt.
+              </div>
+              <div>2014 - 2015</div>
+              <div className="mb-3">
+                <span className="badge bg-info me-1">Django</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6">
+              <p>
+                FULLSTACK DEVELOPER AT GOBIERNO DE LA CIUDAD DE BUENOS AIRES
+              </p>
+              <div>
+                I&apos;ve developed a server that validates the access to Buenos
+                Aires goverment&apos;s web services dashboard and all its
+                related applications (https://id.buenosaires.gob.ar) on
+                Python/Django which complies with OpenID y OpenID Connect
+                Standards, along with modules wrote on Drupal for their site
+                (www.buenosaires.gob.ar). Using my Phonegap skills, I programmed
+                mobile applications and provided coaching on their desings.
+              </div>
+              <div>2013 - 2014</div>
+              <div className="mb-3">
+                <span className="badge bg-info me-1">Django</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>DEVELOPER / SYSADMIN AT BBVA BANCO FRANCÉS</p>
+              <div>
+                Using Python/Django I developed several web applications for the
+                maintenance, managing, monitoring and self-repair of branch
+                offices, servers and ATMs from Latin America, detecting
+                problems, running servers workarounds and automating processes
+                in a friendly web interface. Sysadmin of Xen virtual servers
+                farms with Linux, LAMP servers, Java applications and management
+                systems for IBM and HP hardware.
+              </div>
+              <div>2007 - 2012</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">Python</span>
+                <span className="badge bg-success me-1">Virtualization</span>
+                <span className="badge bg-success me-1">Devops</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6">
+              <p>DEVELOPER / SYSADMIN AT COLEGIO NACIONAL DE BUENOS AIRES</p>
+              <div>
+                Sysadmin of Xen virtual servers farms with Linux, LAMP servers.
+                Developed web applications on LAMP platform for online
+                registration of students, treasury management, personnel
+                management and an application that based on a per student ID,
+                they can make purchases within the school without using cash.
+              </div>
+              <div>2009 - 2011</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">Python</span>
+                <span className="badge bg-success me-1">Virtualization</span>
+                <span className="badge bg-success me-1">Devops</span>
+                <span className="badge bg-success me-1">PHP</span>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <p>FCP CONSULTING, CONSULTORES ASOCIADOS</p>
+              <div>
+                Developed a Debian-based operating system used on new equipment
+                sold in Fravega called &apos;Arandas&apos; and also modified the
+                kernel module V4L Video for Linux to support TV capture plates
+                supplied with the equipment. I developed the installer of such
+                distribution, the internet connection wizzard and equipment
+                testing tool based on Python / QT. Site:
+                www.fcpconsulting.com.ar
+              </div>
+              <div>2007 - 2009</div>
+              <div className="mb-3">
+                <span className="badge bg-success me-1">Python</span>
+                <span className="badge bg-success me-1">C</span>
+                <span className="badge bg-success me-1">Linux</span>
+              </div>
+            </div>
+          </div>
           <h4 className="my-4">Freelance projects</h4>
 
           <div className="row">
@@ -60,7 +262,7 @@ export default function CV() {
                 Connect the Community with Psychomotorists from Argentina.
               </div>
               <div>
-                <small className="text-muted">2021 (In progress)</small>
+                <small className="text-muted">2021</small>
               </div>
               <a href="https://wanid.com.ar/">https://wanid.com.ar/</a>
               <div>
@@ -75,7 +277,7 @@ export default function CV() {
               <div className="lead">OVERFLOW</div>
               <div>Accelerator for Independent Thinkers</div>
               <div>
-                <small className="text-muted">2021 (In progress)</small>
+                <small className="text-muted">2021</small>
               </div>
               <a href="https://www.weareoverflow.com/">
                 https://www.weareoverflow.com/
@@ -95,7 +297,7 @@ export default function CV() {
               <div>Clasifications calculator for Diabetic Foot</div>
               <a href="http://diabetes.org.ar">http://diabetes.org.ar</a>
               <div>
-                <small className="text-muted">2021 (In progress)</small>
+                <small className="text-muted">2021</small>
               </div>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -113,7 +315,7 @@ export default function CV() {
               </div>
               <a href="parkin.gg/">https://parkin.gg/</a>
               <div>
-                <small className="text-muted">2021 (In progress)</small>
+                <small className="text-muted">2021</small>
               </div>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -231,117 +433,6 @@ export default function CV() {
               <div>
                 <span className="badge bg-info">Django</span>
               </div>
-            </div>
-          </div>
-
-          <h4 className="my-4">Jobs</h4>
-          
-          <div className="row">
-            <div className="col-md-6">
-              <p>TECHNICAL LEAD AT CODERIO</p>
-              <div>
-                A Software Development company
-              </div>
-              <a href="https://coderio.co/">
-                https://coderio.co/
-              </a>
-              <p className="lead">2021 - Now</p>
-            </div>
-
-            <div className="col-md-6">
-              <p>PYTHON/DJANGO DEVELOPER AT SUBSECRETARÍA DE GOBIERNO ABIERTO Y PAÍS DIGITAL DE LA SECRETARÍA DE INNOVACIÓN PÚBLICA</p>
-              <div>
-                I&apos;m workig on Mi Argentina, an easy and secure way to access government digital services with a single session and in one place.
-              </div>
-              <a href="https://www.argentina.gob.ar/miargentina">
-                https://www.argentina.gob.ar/miargentina
-              </a>
-              <p className="lead">2020 - Now</p>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-6">
-              <p>PYTHON/DJANGO DEVELOPER AT JUNAR</p>
-              <div>
-                I&apos;ve worked on an Open Data Platform. Junar&apos;s
-                cloud-based Open Data Platform is the fastest, easiest, and most
-                affordable way to transform government data into resources that
-                your citizens can use. The application is developed in Django,
-                MySQL and Java and orchestrated with Salt.
-              </div>
-              <p className="lead">2014 - 2016</p>
-            </div>
-
-            <div className="col-md-6">
-              <p>PYTHON/DJANGO DEVELOPER AT MERCHANT ATLAS</p>
-              <div>
-                I worked on an automated selling machine created in Django, with
-                a machine learning for targeting products with for example best
-                zones, best time to contact, less costs. The application is
-                developed in Django and MongoDB and orchestrated with Salt.
-              </div>
-              <p className="lead">2014 - 2015</p>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-6">
-              <p>
-                FULLSTACK DEVELOPER AT GOBIERNO DE LA CIUDAD DE BUENOS AIRES
-              </p>
-              <div>
-                I&apos;ve developed a server that validates the access to Buenos
-                Aires goverment&apos;s web services dashboard and all its
-                related applications (https://id.buenosaires.gob.ar) on
-                Python/Django which complies with OpenID y OpenID Connect
-                Standards, along with modules wrote on Drupal for their site
-                (www.buenosaires.gob.ar). Using my Phonegap skills, I programmed
-                mobile applications and provided coaching on their desings.
-              </div>
-              <p className="lead">2013 - 2014</p>
-            </div>
-
-            <div className="col-md-6">
-              <p>DEVELOPER / SYSADMIN AT BBVA BANCO FRANCÉS</p>
-              <div>
-                Using Python/Django I developed several web applications for the
-                maintenance, managing, monitoring and self-repair of branch
-                offices, servers and ATMs from Latin America, detecting
-                problems, running servers workarounds and automating processes
-                in a friendly web interface. Sysadmin of Xen virtual servers
-                farms with Linux, LAMP servers, Java applications and management
-                systems for IBM and HP hardware.
-              </div>
-              <p className="lead">2007 - 2012</p>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-6">
-              <p>DEVELOPER / SYSADMIN AT COLEGIO NACIONAL DE BUENOS AIRES</p>
-              <div>
-                Sysadmin of Xen virtual servers farms with Linux, LAMP servers.
-                Developed web applications on LAMP platform for online
-                registration of students, treasury management, personnel
-                management and an application that based on a per student ID,
-                they can make purchases within the school without using cash.
-              </div>
-              <p className="lead">2009 - 2011</p>
-            </div>
-
-            <div className="col-md-6">
-              <p>FCP CONSULTING, CONSULTORES ASOCIADOS</p>
-              <div>
-                Developed a Debian-based operating system used on new equipment
-                sold in Fravega called &apos;Arandas&apos; and also modified the
-                kernel module V4L Video for Linux to support TV capture plates
-                supplied with the equipment. I developed the installer of such
-                distribution, the internet connection wizzard and equipment
-                testing tool based on Python / QT. Site:
-                www.fcpconsulting.com.ar
-              </div>
-              <p className="lead">2007 - 2009</p>
             </div>
           </div>
 
