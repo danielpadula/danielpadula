@@ -10,10 +10,8 @@ export default function Home() {
       </Head>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link href="/">
-            <a className="navbar-brand" href="#">
-              Daniel Padula
-            </a>
+          <Link href="/" className="navbar-brand">
+            Daniel Padula
           </Link>
           <button
             className="navbar-toggler"
@@ -29,10 +27,12 @@ export default function Home() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/resume">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Resume
-                  </a>
+                <Link
+                  href="/resume"
+                  className="nav-link active"
+                  aria-current="page"
+                >
+                  Resume
                 </Link>
               </li>
             </ul>

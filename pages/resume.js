@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function CV() {
@@ -54,8 +55,8 @@ export default function CV() {
           <h4 className="my-4">Jobs</h4>
 
           <div className="row">
-            <div className="col-md-6">
-              <p>TECHNICAL LEAD AT SLANG</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">TECHNICAL LEAD AT SLANG</p>
               <div>
                 As a Technical Leader in the Fullstack Engineering team, I lead
                 initiatives on a platform where our content team meticulously
@@ -75,7 +76,7 @@ export default function CV() {
                 GPT for the automated creation of industry-specific content and
                 courses.
               </div>
-              <a href="https://slangapp.com">https://slangapp.com</a>
+              <Link href="https://slangapp.com">https://slangapp.com</Link>
               <div>2023 - Now</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">React</span>
@@ -84,8 +85,8 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>FULLSTACK ENGINEER AT SLANG</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">FULLSTACK ENGINEER AT SLANG</p>
               <div>
                 As a Fullstack engineer, I contributed to a platform where the
                 content team generates material for English courses, overseeing
@@ -94,7 +95,7 @@ export default function CV() {
                 to leverage Machine Learning/Chat GPT for the automated creation
                 of industry-specific content and courses.
               </div>
-              <a href="https://slangapp.com">https://slangapp.com</a>
+              <Link href="https://slangapp.com">https://slangapp.com</Link>
               <div>2022 - 2023</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">React</span>
@@ -103,8 +104,8 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>TECHNICAL LEAD AT CODERIO</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">TECHNICAL LEAD AT CODERIO</p>
               <div>
                 As a Technical Lead at Coderio, I held a pivotal role in
                 overseeing projects for our major client, Cencosud, a prominent
@@ -122,15 +123,15 @@ export default function CV() {
                 advancements that significantly contributed to the success of
                 our client, Cencosud.
               </div>
-              <a href="https://coderio.co/">https://coderio.co/</a>
+              <Link href="https://coderio.co/">https://coderio.co/</Link>
               <div>2021 - 2023</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">Java</span>
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>
+            <div className="col-md-6  mb-4">
+              <p className="lead">
                 PYTHON/DJANGO DEVELOPER AT SUBSECRETARÍA DE GOBIERNO ABIERTO Y
                 PAÍS DIGITAL DE LA SECRETARÍA DE INNOVACIÓN PÚBLICA
               </p>
@@ -139,9 +140,9 @@ export default function CV() {
                 access government digital services with a single session and in
                 one place.
               </div>
-              <a href="https://www.argentina.gob.ar/miargentina">
+              <Link href="https://www.argentina.gob.ar/miargentina">
                 https://www.argentina.gob.ar/miargentina
-              </a>
+              </Link>
               <div>2020 - Now</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
@@ -150,8 +151,8 @@ export default function CV() {
           </div>
 
           <div className="row">
-            <div className="col-md-6">
-              <p>PYTHON/DJANGO DEVELOPER AT JUNAR</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">PYTHON/DJANGO DEVELOPER AT JUNAR</p>
               <div>
                 I&apos;ve worked on an Open Data Platform. Junar&apos;s
                 cloud-based Open Data Platform is the fastest, easiest, and most
@@ -165,8 +166,8 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>PYTHON/DJANGO DEVELOPER AT MERCHANT ATLAS</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">PYTHON/DJANGO DEVELOPER AT MERCHANT ATLAS</p>
               <div>
                 I worked on an automated selling machine created in Django, with
                 a machine learning for targeting products with for example best
@@ -181,8 +182,8 @@ export default function CV() {
           </div>
 
           <div className="row">
-            <div className="col-md-6">
-              <p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">
                 FULLSTACK DEVELOPER AT GOBIERNO DE LA CIUDAD DE BUENOS AIRES
               </p>
               <div>
@@ -200,8 +201,8 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>DEVELOPER / SYSADMIN AT BBVA BANCO FRANCÉS</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">DEVELOPER / SYSADMIN AT BBVA BANCO FRANCÉS</p>
               <div>
                 Using Python/Django I developed several web applications for the
                 maintenance, managing, monitoring and self-repair of branch
@@ -221,8 +222,10 @@ export default function CV() {
           </div>
 
           <div className="row">
-            <div className="col-md-6">
-              <p>DEVELOPER / SYSADMIN AT COLEGIO NACIONAL DE BUENOS AIRES</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">
+                DEVELOPER / SYSADMIN AT COLEGIO NACIONAL DE BUENOS AIRES
+              </p>
               <div>
                 Sysadmin of Xen virtual servers farms with Linux, LAMP servers.
                 Developed web applications on LAMP platform for online
@@ -239,8 +242,8 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="col-md-6">
-              <p>FCP CONSULTING, CONSULTORES ASOCIADOS</p>
+            <div className="col-md-6 mb-4">
+              <p className="lead">FCP CONSULTING, CONSULTORES ASOCIADOS</p>
               <div>
                 Developed a Debian-based operating system used on new equipment
                 sold in Fravega called &apos;Arandas&apos; and also modified the
@@ -269,7 +272,7 @@ export default function CV() {
               <div>
                 <small className="text-muted">2021</small>
               </div>
-              <a href="https://wanid.com.ar/">https://wanid.com.ar/</a>
+              <Link href="https://wanid.com.ar/">https://wanid.com.ar/</Link>
               <div>
                 <small className="text-muted">Mobile application</small>
               </div>
@@ -284,9 +287,9 @@ export default function CV() {
               <div>
                 <small className="text-muted">2021</small>
               </div>
-              <a href="https://www.weareoverflow.com/">
+              <Link href="https://www.weareoverflow.com/">
                 https://www.weareoverflow.com/
-              </a>
+              </Link>
               <div>
                 <small className="text-muted">Web and Mobile application</small>
               </div>
@@ -300,7 +303,7 @@ export default function CV() {
             <div className="col-6 my-2">
               <div className="lead">SAD - Sociedad Argentina de Diabétes</div>
               <div>Clasifications calculator for Diabetic Foot</div>
-              <a href="http://diabetes.org.ar">http://diabetes.org.ar</a>
+              <Link href="http://diabetes.org.ar">http://diabetes.org.ar</Link>
               <div>
                 <small className="text-muted">2021</small>
               </div>
@@ -318,7 +321,7 @@ export default function CV() {
                 PARKIN is an app based on the shared economy system that
                 connects vehicle drivers with car park owners
               </div>
-              <a href="parkin.gg/">https://parkin.gg/</a>
+              <Link href="parkin.gg/">https://parkin.gg/</Link>
               <div>
                 <small className="text-muted">2021</small>
               </div>
@@ -335,7 +338,7 @@ export default function CV() {
               <div>
                 Be part of the first eSports social network in Latin America
               </div>
-              <a href="https://gamity.app/">https://gamity.app/</a>
+              <Link href="https://gamity.app/">https://gamity.app/</Link>
               <div>
                 <small className="text-muted">2020</small>
               </div>
@@ -353,9 +356,9 @@ export default function CV() {
                 Backend for mobile application and Chrome extension for manage
                 your Gift Cards.
               </div>
-              <a href="https://www.ezgiftcard.com/">
+              <Link href="https://www.ezgiftcard.com/">
                 https://www.ezgiftcard.com/
-              </a>
+              </Link>
               <div>
                 <small className="text-muted">2020</small>
               </div>
@@ -370,7 +373,7 @@ export default function CV() {
             <div className="col-6 my-2">
               <div className="lead">PRETOR</div>
               <div>Creation and management of rental contracts.</div>
-              <a href="https://pre-tor.com/">https://pre-tor.com/</a>
+              <Link href="https://pre-tor.com/">https://pre-tor.com/</Link>
               <div>
                 <small className="text-muted">2020</small>
               </div>
@@ -391,9 +394,9 @@ export default function CV() {
                 request delivery of your car stuck in traffic, tracking the
                 shipment in real time.
               </div>
-              <a href="https://nosmk.com/es/proyecto/22/burger_king">
+              <Link href="https://nosmk.com/es/proyecto/22/burger_king">
                 https://nosmk.com/es/proyecto/22/burger_king
-              </a>
+              </Link>
               <div>
                 <small className="text-muted">2020</small>
               </div>
@@ -409,9 +412,9 @@ export default function CV() {
             <div className="col-6 my-2">
               <div className="lead">INTEGRA CARD</div>
               <div>Mastercard cards for Córdoba &apos;s citizens</div>
-              <a href="https://integracard.net.ar/">
+              <Link href="https://integracard.net.ar/">
                 https://integracard.net.ar/
-              </a>
+              </Link>
               <div>
                 <small className="text-muted">2019</small>
               </div>
@@ -426,9 +429,9 @@ export default function CV() {
             <div className="col-6 my-2">
               <div className="lead">QHAPAX – CÓRDOBA CITY</div>
               <div>Open data portal and platform of the city of Cordoba</div>
-              <a href="https://gobiernoabierto.cordoba.gob.ar">
+              <Link href="https://gobiernoabierto.cordoba.gob.ar">
                 https://gobiernoabierto.cordoba.gob.ar
-              </a>
+              </Link>
               <div>
                 <small className="text-muted">2018 - 2019</small>
               </div>
@@ -446,7 +449,8 @@ export default function CV() {
             <div className="col-md-6">
               <div>Scrum for agile development training</div>
               <p>
-                KLEER <a href="http://www.kleer.la/">http://www.kleer.la</a> -
+                KLEER{" "}
+                <Link href="http://www.kleer.la/">http://www.kleer.la</Link> -
                 2014
               </p>
 
@@ -469,7 +473,9 @@ export default function CV() {
           <dl className="row">
             <dt className="col-sm-3">Email</dt>
             <dd className="col-sm-9">
-              <a href="mailto:hola@danielpadula.com">hola@danielpadula.com</a>
+              <Link href="mailto:hola@danielpadula.com">
+                hola@danielpadula.com
+              </Link>
             </dd>
             <dt className="col-sm-3">Location</dt>
             <dd className="col-sm-9">Buenos Aires, Argentina</dd>
