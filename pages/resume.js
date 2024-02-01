@@ -57,15 +57,19 @@ export default function CV() {
             <div className="col-md-6">
               <p>TECHNICAL LEAD AT SLANG</p>
               <div>
-                As a Technical Leader in the Fullstack Engineering team, my
-                primary focus lies in leveraging the strengths of our human
-                capital. I lead initiatives on a platform where our content team
-                meticulously crafts material for English courses, emphasizing
-                the nuanced management of lexicon, grammar, and content
-                structures. My leadership style places significant emphasis on
-                fostering a social perspective within the team. I specialize in
+                As a Technical Leader in the Fullstack Engineering team, I lead
+                initiatives on a platform where our content team meticulously
+                crafts material for English courses, emphasizing the nuanced
+                management of lexicon, grammar, and content structures. My
+                leadership style places significant emphasis on fostering a
+                social perspective within the team. I actively contribute to the
+                team's excellence by conducting thorough code reviews for the
+                entire team, ensuring standards of code quality and promoting
+                knowledge-sharing among team members. Moreover, I specialize in
                 steering teams towards success by prioritizing the development
-                and well-being of our individuals. Moreover, I spearhead the
+                and well-being of our individuals. This involves leveraging the
+                strengths of our human capital to create a collaborative and
+                thriving work environment. Additionally, I spearhead the
                 implementation of essential modifications to the application,
                 driving the integration of Machine Learning/Chat GPT for the
                 automated creation of industry-specific content and courses.
