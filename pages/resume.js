@@ -15,7 +15,7 @@ export default function CV() {
           <div className="d-flex flex-row">
             <div className="justify-content-center">
               <h1>Daniel Padula</h1>
-              <h3>Fullstack Web and Mobile Developer</h3>
+              <h3>Technical Leader & Fullstack Developer</h3>
             </div>
             <div className="d-flex flex-fill justify-content-end">
               <Image
