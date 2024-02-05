@@ -143,7 +143,7 @@ export default function CV() {
               <Link href="https://www.argentina.gob.ar/miargentina">
                 https://www.argentina.gob.ar/miargentina
               </Link>
-              <div>2020 - Now</div>
+              <div>2020 - 2021</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
               </div>
