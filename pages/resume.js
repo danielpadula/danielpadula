@@ -81,7 +81,8 @@ export default function CV() {
               <div className="mb-3">
                 <span className="badge bg-success me-1">React</span>
                 <span className="badge bg-secondary me-1">Ruby on Rails</span>
-                <span className="badge bg-warning">Python</span>
+                <span className="badge bg-warning me-1">Python</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -101,6 +102,7 @@ export default function CV() {
                 <span className="badge bg-success me-1">React</span>
                 <span className="badge bg-secondary me-1">Ruby on Rails</span>
                 <span className="badge bg-warning">Python</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -127,6 +129,7 @@ export default function CV() {
               <div>2021 - 2023</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">Java</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -163,6 +166,7 @@ export default function CV() {
               <div>2014 - 2016</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -177,6 +181,7 @@ export default function CV() {
               <div>2014 - 2015</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
           </div>
@@ -297,6 +302,7 @@ export default function CV() {
                 <span className="badge bg-success me-1">React</span>
                 <span className="badge bg-secondary me-1">NextJS</span>
                 <span className="badge bg-warning">React Native</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -366,7 +372,8 @@ export default function CV() {
                 <small className="text-muted">Backend</small>
               </div>
               <div>
-                <span className="badge bg-info">Django</span>
+                <span className="badge bg-info me-1">Django</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
@@ -405,7 +412,8 @@ export default function CV() {
               </div>
               <div>
                 <span className="badge bg-warning  me-1">React Native</span>
-                <span className="badge bg-dark">Android Native</span>
+                <span className="badge bg-dark me-1">Android Native</span>
+                <span className="badge bg-success me-1">AWS</span>
               </div>
             </div>
 
