@@ -258,7 +258,7 @@ export default function CV() {
                 testing tool based on Python / QT. Site:
                 www.fcpconsulting.com.ar
               </div>
-              <div>2007 - 2009</div>
+              <div>2005 - 2007</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">Python</span>
                 <span className="badge bg-success me-1">C</span>
