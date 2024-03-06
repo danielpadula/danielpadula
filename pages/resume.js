@@ -30,27 +30,21 @@ export default function CV() {
         </header>
 
         <main>
-          {/*
-          <h2>Resume</h2>
-          <p>
-            Using my experience as Senior Python/Django Developer, I&apos;ve
-            developed several web applications such as Social platforms and
-            authenticacion platforms using OpenID & OpenID Connect standards for
-            validating the access to Buenos Aires goverment&apos;s web services
-            dashboard and several applications. I worked in the project as a
-            developer and Scrum Master. Also worked with Django and MongoDB on a
-            automated selling machine, Hybrid mobile applications based on
-            Cordova/Ionic and several Open Data Platforms. I&apos;ve also
-            developed realtime applications using JavaScript/HTML/NodeJS with
-            stacks like MeanIO and MeteorJS. My last project was a platform that
-            shows possible emergencies in a map based on Twitter posts. I been
-            working with PHP/Drupal. The last project I worked on this
-            technology was the site of Buenos Aires City. Sysadmin Senior. I
-            gained extensive experience with high-performance systems working
-            for French Bank for five years.
-          </p>*/}
+          <h3>About me</h3>
+          <div className="row mb-4">
+            <p>
+              With almost two decades in the IT industry, I bring a robust skill
+              set centered around Python, Django, and React, complemented by
+              experience with React Native and Ruby on Rails. Having led teams
+              as a Technical Lead for two years, I thrive on navigating
+              challenges and fostering innovation. Passionate about leveraging
+              technology for impactful solutions, I&apos;m always open to
+              connecting with like-minded professionals for potential
+              collaborations.
+            </p>
+          </div>
 
-          <h2>Experience</h2>
+          <h3>Experience</h3>
 
           <h4 className="my-4">Jobs</h4>
 
