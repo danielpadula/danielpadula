@@ -157,7 +157,7 @@ export default function CV() {
                 your citizens can use. The application is developed in Django,
                 MySQL and Java and orchestrated with Salt.
               </div>
-              <div>2014 - 2016</div>
+              <div>Febrero 2015 - 2017</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
                 <span className="badge bg-success me-1">AWS</span>
@@ -172,7 +172,7 @@ export default function CV() {
                 zones, best time to contact, less costs. The application is
                 developed in Django and MongoDB and orchestrated with Salt.
               </div>
-              <div>2014 - 2015</div>
+              <div>Agosto 2014 - Febrero 2015</div>
               <div className="mb-3">
                 <span className="badge bg-info me-1">Django</span>
                 <span className="badge bg-success me-1">AWS</span>
@@ -284,7 +284,7 @@ export default function CV() {
               <div className="lead">OVERFLOW</div>
               <div>Accelerator for Independent Thinkers</div>
               <div>
-                <small className="text-muted">2021</small>
+                <small className="text-muted">Mar 2021 - Sep 2021</small>
               </div>
               <Link href="https://www.weareoverflow.com/">
                 https://www.weareoverflow.com/
@@ -305,7 +305,7 @@ export default function CV() {
               <div>Clasifications calculator for Diabetic Foot</div>
               <Link href="http://diabetes.org.ar">http://diabetes.org.ar</Link>
               <div>
-                <small className="text-muted">2021</small>
+                <small className="text-muted">Oct 2020 - Oct 2021</small>
               </div>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -323,7 +323,7 @@ export default function CV() {
               </div>
               <Link href="parkin.gg/">https://parkin.gg/</Link>
               <div>
-                <small className="text-muted">2021</small>
+                <small className="text-muted">Feb 2021 - Jul 2022</small>
               </div>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -399,7 +399,7 @@ export default function CV() {
                 https://nosmk.com/es/proyecto/22/burger_king
               </Link>
               <div>
-                <small className="text-muted">2020</small>
+                <small className="text-muted">Jan 2019 - Apr 2019</small>
               </div>
               <div>
                 <small className="text-muted">Mobile application</small>
@@ -418,7 +418,7 @@ export default function CV() {
                 https://integracard.net.ar/
               </Link>
               <div>
-                <small className="text-muted">2019</small>
+                <small className="text-muted">Apr 2019 - Aug 2019</small>
               </div>
               <div>
                 <small className="text-muted">Web application</small>
@@ -435,7 +435,7 @@ export default function CV() {
                 https://gobiernoabierto.cordoba.gob.ar
               </Link>
               <div>
-                <small className="text-muted">2018 - 2019</small>
+                <small className="text-muted">Julio 2016 - Sep 2017</small>
               </div>
               <div>
                 <small className="text-muted">Backend</small>
