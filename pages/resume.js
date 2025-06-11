@@ -33,14 +33,16 @@ export default function CV() {
           <h3>About me</h3>
           <div className="row mb-4">
             <p>
-              With almost two decades in the IT industry, I bring a robust skill
-              set centered around Python, Django, and React, complemented by
-              experience with React Native and Ruby on Rails. Having led teams
-              as a Technical Lead for two years, I thrive on navigating
-              challenges and fostering innovation. Passionate about leveraging
-              technology for impactful solutions, I&apos;m always open to
-              connecting with like-minded professionals for potential
-              collaborations.
+              I’m a Tech Lead with over 17 years of experience in software
+              development, with a strong focus on quality, clean architecture,
+              and scalable system design. I lead technical teams on high-impact
+              projects, combining strategic vision with hands-on technical
+              expertise. I guide the evolution of complex systems, promoting
+              best practices, modular architecture, and business-aligned
+              decisions. I work closely with product teams and foster a culture
+              of autonomy, ownership, continuous learning, and positive energy.
+              I’m passionate about mentoring, helping others grow, and building
+              clear, sustainable solutions that create real value.
             </p>
           </div>
 
@@ -49,6 +51,38 @@ export default function CV() {
           <h4 className="my-4">Jobs</h4>
 
           <div className="row">
+            <div className="col-md-6 mb-4">
+              <p className="lead">TECHNICAL LEAD AT COMETA</p>
+              <div>
+                I lead the technological transformation of a school management
+                platform used by educational institutions across Mexico, driving
+                the transition from a monolithic system to a microservices-based
+                architecture. I promote SOLID principles, Clean Architecture,
+                and modular design to ensure scalability, technical clarity, and
+                low coupling. I work closely with the product team to align
+                vision, priorities, and technical decisions, ensuring a coherent
+                and value-driven development process. I foster a culture of
+                technical ownership, continuous learning, and best development
+                practices. I define and improve processes for code review,
+                technical documentation, and automation. I’m actively involved
+                in hiring and mentoring, helping build a strong and aligned
+                engineering team. The architectural and organizational decisions
+                made have improved development speed, enabled easier
+                integrations, and supported the sustainable growth of the
+                platform across hundreds of schools.
+              </div>
+              <Link href="https://getcometa.com">https://getcometa.com</Link>
+              <div>2024 - Now</div>
+              <div className="mb-3">
+                <span className="badge bg-secondary me-1">React</span>
+                <span className="badge bg-secondary me-1">FastAPI</span>
+                <span className="badge bg-secondary me-1">Django</span>
+                <span className="badge bg-warning me-1">Typescript</span>
+                <span className="badge bg-warning me-1">Python</span>
+                <span className="badge bg-warning me-1">Go</span>
+              </div>
+            </div>
+
             <div className="col-md-6 mb-4">
               <p className="lead">TECHNICAL LEAD AT SLANG</p>
               <div>
@@ -71,7 +105,7 @@ export default function CV() {
                 courses.
               </div>
               <Link href="https://slangapp.com">https://slangapp.com</Link>
-              <div>2023 - Now</div>
+              <div>2023 - 2024</div>
               <div className="mb-3">
                 <span className="badge bg-success me-1">React</span>
                 <span className="badge bg-secondary me-1">Ruby on Rails</span>
