@@ -15,7 +15,7 @@ export default function CV() {
           <div className="d-flex flex-row">
             <div className="justify-content-center">
               <h1>Daniel Padula</h1>
-              <h3>Technical Leader & Fullstack Developer</h3>
+              <h3>Engineering Manager & Technical Leader</h3>
             </div>
             <div className="d-flex flex-fill justify-content-end">
               <Image
@@ -33,16 +33,18 @@ export default function CV() {
           <h3>About me</h3>
           <div className="row mb-4">
             <p>
-              I’m a Tech Lead with over 17 years of experience in software
-              development, with a strong focus on quality, clean architecture,
-              and scalable system design. I lead technical teams on high-impact
-              projects, combining strategic vision with hands-on technical
-              expertise. I guide the evolution of complex systems, promoting
-              best practices, modular architecture, and business-aligned
-              decisions. I work closely with product teams and foster a culture
-              of autonomy, ownership, continuous learning, and positive energy.
-              I’m passionate about mentoring, helping others grow, and building
-              clear, sustainable solutions that create real value.
+              I&apos;m an Engineering Manager and Tech Lead with over 17 years
+              of experience in software development, with a strong focus on
+              quality, clean architecture, and scalable system design. I lead
+              technical teams on high-impact projects, combining strategic vision
+              with hands-on technical expertise. I guide the evolution of
+              complex systems, promoting best practices, modular architecture,
+              and business-aligned decisions. I work closely with product teams
+              to drive end-to-end product engineering, focusing on architecture,
+              metrics, and continuous value delivery. I foster a culture of
+              autonomy, ownership, continuous learning, and positive energy.
+              I&apos;m passionate about mentoring, helping others grow, and
+              building clear, sustainable solutions that create real value.
             </p>
           </div>
 
@@ -51,6 +53,21 @@ export default function CV() {
           <h4 className="my-4">Jobs</h4>
 
           <div className="row">
+            <div className="col-md-6 mb-4">
+              <p className="lead">ENGINEERING MANAGER AT COMETA</p>
+              <div>
+                I lead the Financial Squad with full focus on product
+                engineering. I&apos;m responsible for the end-to-end financial
+                flow (payments, collections, billing cycles and reconciliations),
+                architecture, metrics and coordination with Product. I work on
+                the complete restructuring of teams and modernization of the
+                technology base, driving stability, scalability and better
+                processes for continuous value delivery.
+              </div>
+              <Link href="https://getcometa.com">https://getcometa.com</Link>
+              <div>2025 - Now</div>
+            </div>
+
             <div className="col-md-6 mb-4">
               <p className="lead">TECHNICAL LEAD AT COMETA</p>
               <div>
@@ -72,7 +89,7 @@ export default function CV() {
                 platform across hundreds of schools.
               </div>
               <Link href="https://getcometa.com">https://getcometa.com</Link>
-              <div>2024 - Now</div>
+              <div>2024 - 2025</div>
               <div className="mb-3">
                 <span className="badge bg-secondary me-1">React</span>
                 <span className="badge bg-secondary me-1">FastAPI</span>
